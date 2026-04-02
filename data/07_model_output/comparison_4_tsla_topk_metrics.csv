@@ -1,0 +1,6 @@
+Method,Status,Note,Cumulative Return (%),Sharpe Ratio,Daily Volatility (%),Annualized Volatility (%),Max Drawdown (%)
+B&H,available,,-9.9123,-1.5922,2.2460,35.6548,13.9366
+Top 1,available,,-12.6516,-2.2453,2.0329,32.2720,15.1862
+Top 3,available,Using current TSLA default FinMem run because top_k=3 in the default config.,-4.2329,-1.0884,1.4032,22.2747,12.2065
+Top 5,available,,-8.6717,-2.2963,1.3624,21.6282,12.6475
+Top 10,available,,-4.3656,-1.3044,1.2075,19.1684,8.6979

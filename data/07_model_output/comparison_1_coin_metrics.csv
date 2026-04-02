@@ -1,0 +1,9 @@
+Method,Status,Note,Cumulative Return (%),Sharpe Ratio,Daily Volatility (%),Annualized Volatility (%),Max Drawdown (%)
+Buy & Hold,available,,-18.1755,-1.1200,5.8550,92.9455,46.7208
+FinMem,available,,-0.5211,-0.0440,4.2736,67.8411,25.2342
+FinMem Self-Adaptive (New),available,,-3.9184,-2.3658,0.5976,9.4859,3.9184
+FinGPT,placeholder,FinGPT baseline is blocked. The required Hugging Face base model remains gated.,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER
+Generative Agents,available,,1.3812,3.0261,0.1647,2.6140,0.0000
+A2C,available,,-12.1026,-0.7462,5.8519,92.8959,50.9038
+PPO,available,,5.4049,0.3500,5.5716,88.4459,40.3185
+DQN,available,,-32.8356,-2.9581,4.0048,63.5737,31.8464

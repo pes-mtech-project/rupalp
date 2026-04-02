@@ -1,0 +1,7 @@
+Method,Status,Note,Cumulative Return (%),Sharpe Ratio,Daily Volatility (%),Annualized Volatility (%),Max Drawdown (%)
+B&H,available,,-9.9123,-1.5922,2.2460,35.6548,13.9366
+GPT 3.5-Turbo,available,,-4.2329,-1.0884,1.4032,22.2747,12.2065
+GPT4,placeholder,Missing output: /Users/rupal.pursharthi/Library/CloudStorage/OneDrive-TheWaltDisneyCompany/Documents/Project_4th sem/FinMem-LLM-StockTrading-main/data/05_test_model_output/tsla_gpt4/agent_1/state_dict.pkl,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER
+GPT4-Turbo,available,Fallback to the best completed GPT-4-Turbo risk-profile run (Risk Seeking) because the dedicated RQ3 GPT-4-Turbo run is missing.,0.0000,NaN,0.0000,0.0000,0.0000
+davinci-003,available,,0.0000,NaN,0.0000,0.0000,0.0000
+Llama2-70b-chat,placeholder,Missing output: /Users/rupal.pursharthi/Library/CloudStorage/OneDrive-TheWaltDisneyCompany/Documents/Project_4th sem/FinMem-LLM-StockTrading-main/data/05_test_model_output/tsla_llama2_70b_chat/agent_1/state_dict.pkl,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER

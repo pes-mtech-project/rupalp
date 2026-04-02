@@ -1,0 +1,5 @@
+Profile,Status,Note,Cumulative Return (%),Sharpe Ratio,Daily Volatility (%),Annualized Volatility (%),Max Drawdown (%)
+B&H,available,,-9.9123,-1.5922,2.2460,35.6548,13.9366
+Risk Averse,available,,-11.1672,-2.7706,1.4542,23.0840,16.3907
+Risk Seeking,available,,-9.6731,-2.3786,1.4672,23.2911,11.0137
+Self-Adaptive,available,,9.0697,2.0858,1.5688,24.9039,4.0696

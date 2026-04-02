@@ -1,0 +1,4 @@
+model_1,model_2,statistic,p_value
+OpenAI,Gemini,44.0,1.3031089668548678e-06
+OpenAI,Ollama,390.0,0.5995595651717065
+Gemini,Ollama,0.0,2.2473621313052374e-08

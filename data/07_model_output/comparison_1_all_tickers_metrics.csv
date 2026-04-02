@@ -1,0 +1,41 @@
+Ticker,Method,Status,Note,Cumulative Return (%),Sharpe Ratio,Daily Volatility (%),Annualized Volatility (%),Max Drawdown (%)
+TSLA,Buy & Hold,available,,-9.9123,-1.5922,2.2460,35.6548,13.9366
+TSLA,FinMem,available,,-4.2329,-1.0884,1.4032,22.2747,12.2065
+TSLA,FinMem Self-Adaptive (New),available,,9.5941,2.9478,1.1742,18.6406,3.2708
+TSLA,FinGPT,placeholder,FinGPT baseline is blocked. The required Hugging Face base model remains gated.,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER
+TSLA,Generative Agents,available,,2.2000,0.9164,0.8661,13.7490,3.5144
+TSLA,A2C,available,,28.5378,6.5218,1.5787,25.0612,4.2548
+TSLA,PPO,available,,10.9817,2.1853,1.8130,28.7808,8.3719
+TSLA,DQN,available,,3.1746,0.6095,1.8792,29.8313,10.3760
+AMZN,Buy & Hold,available,,-6.0467,-1.0641,2.0501,32.5439,20.0860
+AMZN,FinMem,available,,9.9822,2.4206,1.4878,23.6186,4.0265
+AMZN,FinMem Self-Adaptive (New),available,,0.8557,0.8143,0.3791,6.0183,0.9954
+AMZN,FinGPT,placeholder,FinGPT baseline is blocked. The required Hugging Face base model remains gated.,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER
+AMZN,Generative Agents,available,,-0.9859,-0.7764,0.4581,7.2728,2.4832
+AMZN,A2C,available,,6.4146,1.2286,1.8836,29.9016,6.0912
+AMZN,PPO,available,,8.7923,2.2415,1.4152,22.4651,3.9820
+AMZN,DQN,available,,22.9465,5.6496,1.4654,23.2617,2.9299
+NFLX,Buy & Hold,available,,8.4572,1.1092,2.7508,43.6674,17.4069
+NFLX,FinMem,available,,-22.4334,-3.4539,2.3433,37.1993,23.1306
+NFLX,FinMem Self-Adaptive (New),available,,-1.0054,-0.6038,0.6008,9.5371,3.8665
+NFLX,FinGPT,placeholder,FinGPT baseline is blocked. The required Hugging Face base model remains gated.,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER
+NFLX,Generative Agents,available,,-1.4887,-1.7513,0.3067,4.8684,2.4513
+NFLX,A2C,available,,-3.7695,-2.6558,0.5121,8.1290,3.7549
+NFLX,PPO,available,,7.5866,1.0294,2.6589,42.2092,17.2305
+NFLX,DQN,available,,-19.9978,-2.8064,2.5709,40.8118,19.8895
+MSFT,Buy & Hold,available,,-14.3071,-2.1883,2.3588,37.4448,21.1843
+MSFT,FinMem,available,,8.0807,2.0333,1.4338,22.7616,5.2550
+MSFT,FinMem Self-Adaptive (New),available,,-2.8315,-0.5282,1.9341,30.7036,11.9336
+MSFT,FinGPT,placeholder,FinGPT baseline is blocked. The required Hugging Face base model remains gated.,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER
+MSFT,Generative Agents,available,,-0.1599,-0.7194,0.0802,1.2732,0.4391
+MSFT,A2C,available,,-1.5161,-0.3302,1.6563,26.2934,9.6898
+MSFT,PPO,available,,7.5625,1.6529,1.6506,26.2032,9.1660
+MSFT,DQN,available,,-3.3214,-0.7819,1.5325,24.3272,9.7856
+COIN,Buy & Hold,available,,-18.1755,-1.1200,5.8550,92.9455,46.7208
+COIN,FinMem,available,,-0.5211,-0.0440,4.2736,67.8411,25.2342
+COIN,FinMem Self-Adaptive (New),available,,-3.9184,-2.3658,0.5976,9.4859,3.9184
+COIN,FinGPT,placeholder,FinGPT baseline is blocked. The required Hugging Face base model remains gated.,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER,PLACEHOLDER
+COIN,Generative Agents,available,,1.3812,3.0261,0.1647,2.6140,0.0000
+COIN,A2C,available,,-12.1026,-0.7462,5.8519,92.8959,50.9038
+COIN,PPO,available,,5.4049,0.3500,5.5716,88.4459,40.3185
+COIN,DQN,available,,-32.8356,-2.9581,4.0048,63.5737,31.8464

@@ -1,0 +1,4 @@
+Method,Status,Note,Cumulative Return (%),Sharpe Ratio,Daily Volatility (%),Annualized Volatility (%),Max Drawdown (%)
+B&H,available,,-9.9123,-1.5922,2.2460,35.6548,13.9366
+FinMem (Full Training),available,,-4.2329,-1.0884,1.4032,22.2747,12.2065
+FinMem (Limited Training),available,,0.3708,0.1120,1.1948,18.9667,7.0646
