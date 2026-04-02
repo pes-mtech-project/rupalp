@@ -1,0 +1,7 @@
+torch>=2.1
+transformers>=4.41
+peft>=0.11
+accelerate>=0.30
+sentencepiece>=0.2
+huggingface_hub>=0.23
+regex>=2023.10.3,<2024.0.0

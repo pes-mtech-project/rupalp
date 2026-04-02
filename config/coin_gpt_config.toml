@@ -1,0 +1,54 @@
+[chat]
+model = "gpt-3.5-turbo-0125"
+end_point = "https://api.openai.com/v1/chat/completions"
+system_message = "You are a helpful assistant."
+
+
+[general]
+top_k = 3
+agent_name = "agent_1"
+look_back_window_size = 7
+trading_symbol = "COIN"
+character_string = '''
+You accumuate a lot of informaion of the following sectors so you are especially good at trading them:
+(1) Cryptocurrency Exchanges and Digital Asset Trading.
+(2) Blockchain Infrastructure and Web3 Platforms.
+(3) Crypto Market Regulation and Compliance.
+(4) Retail and Institutional Brokerage Services.
+(5) Stablecoins, Custody, and On-chain Financial Services.
+(6) FinTech Platforms linked to digital asset adoption.
+
+You are an expert of COIN.
+From year 2021 to 2022 September, Coinbase's business reflected crypto market cycles, trading volume sensitivity, regulation, and the adoption of digital asset infrastructure.
+'''
+
+
+[agent.agent_1.embedding.detail]
+embedding_model = "text-embedding-3-small"
+chunk_size = 5000
+verbose = false
+
+
+[short]
+importance_score_initialization = "sample"
+decay_params = {recency_factor=3.0, importance_factor=0.92}
+clean_up_threshold_dict = {recency_threshold=0.05, importance_threshold=5}
+jump_threshold_upper = 60
+
+[mid]
+jump_threshold_lower = 60
+jump_threshold_upper = 80
+importance_score_initialization = "sample"
+decay_params = {recency_factor=90.0, importance_factor=0.967}
+clean_up_threshold_dict = {recency_threshold=0.05, importance_threshold=5}
+
+[long]
+jump_threshold_lower = 80
+importance_score_initialization = "sample"
+decay_params = {recency_factor=365.0, importance_factor=0.988}
+clean_up_threshold_dict = {recency_threshold=0.05, importance_threshold=5}
+
+[reflection]
+importance_score_initialization = "sample"
+decay_params = {recency_factor=365.0, importance_factor=0.988}
+clean_up_threshold_dict = {recency_threshold=0.05, importance_threshold=5}
